@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div class="text-center">
+        <form method="get">
+            <input type="text" id="txt_barcodeInput" placeholder="00000001001" />
+            <button type="submit">Generate Barcode</button>
+        </form>
+    </div>
+    <div id="qrcode"></div>
+    @*<script type="text/javascript">
+        new QRCode(document.getElementById("qrcode"),
+            //text: "Castlecary Road 1 /n CMS Enviro ltd",
+            //"https://www.mywebsite.com/QRCode"
+            width: 5cm,
+            height:2.5cm
+        );
+    </script>*@
+</div>

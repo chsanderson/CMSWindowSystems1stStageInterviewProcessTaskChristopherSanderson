@@ -1,0 +1,147 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/**
+    QR code CSS Below
+*/
+body{
+    background:#111 no-repeat;
+    background-image: -webkit-gradient(radial, 50% 0, 150%, 50% 0, 300, from(#444), to(#111));
+    }
+
+h1,h2,h3{
+    text-align:center;
+    color: #FFF;
+    margin: 5px 0;
+}
+
+h1{
+    font-size:30px;
+}
+h2 a {
+    font-size:25px;
+    color:#0184e3;
+    text-decoration: none;
+}
+
+h3{
+    font-size:23px;
+    border-bottom:solid 3px #CCC;
+    padding-bottom:10px;
+}
+
+h3 a{
+color:#00e8ff;
+text-decoration: none;
+}
+
+h3 a:hover, h2 a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    width:800px;
+    margin: auto;
+    color: #FFF;
+    font-size:25px;
+}
+
+.container #content{
+    border:dashed 2px #CCC;
+    padding 10px;
+}
+
+#reset{
+    padding:5px 10px;
+    background: #4CAF50;
+    border:none;
+    color:#FFF;
+    cursor:pointer;
+}
+
+#reset:hover{
+    color:#4CAF50;
+    background:#FFF;
+}
+
+#viewContent table{
+    width:100%;
+}
+
+#viewContent table tr{
+    height: 80px;
+    background:darkcyan;
+}
+#viewContent table tr td {
+    width: 50%;
+    padding-left:5px;
+}
